@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GBS + DTK PRESSER AUDIO</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js"></script>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <h1>SFTS: GBS + DTK presser audio</h1>
+            <div class="currently-playing">
+                <p class="currently-playing-copy">GBS Speaks About The Team</p>
+                <audio controls id="audio-player">
+                    <source id="track-src" src="./assets/audio/gbs-speaks-about-the-team.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="audio-tracks-container"></div>
+        </div>
+    </main>
+</body>
+<script src="./js/app.js"></script>
+</html>

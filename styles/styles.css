@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Khand');
+body{
+    font-family: 'Khand', sans-serif;
+}
+main{
+    max-width: 600px;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+.content{
+    background: yellow;
+    min-width: 95vw;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+}
+.content h1{
+    text-transform: uppercase;
+    width: 80%;
+    font-size: 40px;
+    text-align: center;
+}
+.currently-playing{
+    margin: 0px 0px 30px;
+}
+.currently-playing p{
+    text-align: center;
+    margin: 10px 0px;
+}
+.audio-tracks-container{
+    display: flex;
+    justify-content: center;
+}
+.audio-tracks{
+    width: 90%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.audio-tracks p{
+        margin: 10px 10px 0px;
+}
+.track.active{
+    border-bottom:1px solid rgba(0, 31, 92, 0.4);
+}
