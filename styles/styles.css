@@ -12,7 +12,7 @@ main{
     margin: 0 auto;
 }
 .content{
-    background: yellow;
+    background: #001F5C;
     min-width: 95vw;
     min-height: 100vh;
     height: 100%;
@@ -22,6 +22,7 @@ main{
     align-content: flex-start;
     align-items: center;
     font-size: 24px;
+    color:#fff;
 }
 .content h1{
     text-transform: uppercase;
@@ -50,5 +51,5 @@ main{
         margin: 10px 10px 0px;
 }
 .track.active{
-    border-bottom:1px solid rgba(0, 31, 92, 0.4);
+    border-bottom:1px solid #fff;
 }
